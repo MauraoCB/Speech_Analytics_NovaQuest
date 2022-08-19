@@ -122,11 +122,12 @@ namespace Speech_Analytics.Dados
                                     {
                                         //18/08/2022 - Início
                                         //O nome do novo arquivo será o ID da gravação + _1.wav
-                                        FileInfo fi = new FileInfo(inputFilePath1);
+                                        string inputFilePath3 = Path.Combine(str7, sqlDataReader["NOME_ARQUIVO_ORIGINAL"].ToString());
+                                        FileInfo fi = new FileInfo(inputFilePath3);
                                         string inputFilePath1_1wav = fi.FullName.Replace(fi.Name, sqlDataReader[22].ToString() + "_1");
                                         string fileCsv = inputFilePath1_1wav.Replace("wav", "csv");
 
-                                        Speech_Analytics.Dados.Dados.Copy(inputFilePath1, inputFilePath1_1wav);
+                                        Speech_Analytics.Dados.Dados.Copy(inputFilePath3 , inputFilePath1_1wav);
 
                                         FileStream streamCsv = fi.Open(FileMode.Append);
 
