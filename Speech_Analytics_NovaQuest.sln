@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speech_Analytics.Retroativo", "Speech_Analytics\Speech_Analytics.Retroativo\Speech_Analytics.Retroativo.csproj", "{95342246-5F2D-425E-9737-17EA7FC17407}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speech_Analytics.Dados", "Speech_Analytics\Speech_Analytics.Dados\Speech_Analytics.Dados.csproj", "{73760E41-27BD-4739-A7AD-2D9847CDF056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFTP", "SFTP\SFTP.csproj", "{AE551E21-7580-410F-A634-68DB976BC07A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speech_Analytics.Service", "Speech_Analytics.Service\Speech_Analytics.Service.csproj", "{05A53FAA-533C-4744-9DED-688722024493}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Speech_Analytics.Setup", "Speech_Analytics.Setup\Speech_Analytics.Setup.vdproj", "{3BC0D697-E2A8-4ADB-8C52-9E6F24F0BFF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95342246-5F2D-425E-9737-17EA7FC17407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95342246-5F2D-425E-9737-17EA7FC17407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95342246-5F2D-425E-9737-17EA7FC17407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95342246-5F2D-425E-9737-17EA7FC17407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73760E41-27BD-4739-A7AD-2D9847CDF056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73760E41-27BD-4739-A7AD-2D9847CDF056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73760E41-27BD-4739-A7AD-2D9847CDF056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73760E41-27BD-4739-A7AD-2D9847CDF056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE551E21-7580-410F-A634-68DB976BC07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE551E21-7580-410F-A634-68DB976BC07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE551E21-7580-410F-A634-68DB976BC07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE551E21-7580-410F-A634-68DB976BC07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A53FAA-533C-4744-9DED-688722024493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A53FAA-533C-4744-9DED-688722024493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A53FAA-533C-4744-9DED-688722024493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A53FAA-533C-4744-9DED-688722024493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC0D697-E2A8-4ADB-8C52-9E6F24F0BFF0}.Debug|Any CPU.ActiveCfg = Debug
+		{3BC0D697-E2A8-4ADB-8C52-9E6F24F0BFF0}.Debug|Any CPU.Build.0 = Debug
+		{3BC0D697-E2A8-4ADB-8C52-9E6F24F0BFF0}.Release|Any CPU.ActiveCfg = Release
+		{3BC0D697-E2A8-4ADB-8C52-9E6F24F0BFF0}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E52AB52-0E04-45D8-84E3-77655C21E6B2}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://resolutte.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SFTP\\SFTP.csproj
+		SccProjectName1 = SFTP
+		SccLocalPath1 = SFTP
+		SccProjectUniqueName2 = Speech_Analytics.Service\\Speech_Analytics.Service.csproj
+		SccProjectName2 = Speech_Analytics.Service
+		SccLocalPath2 = Speech_Analytics.Service
+		SccProjectUniqueName3 = Speech_Analytics\\Speech_Analytics.Dados\\Speech_Analytics.Dados.csproj
+		SccProjectName3 = Speech_Analytics/Speech_Analytics.Dados
+		SccLocalPath3 = Speech_Analytics\\Speech_Analytics.Dados
+		SccProjectUniqueName4 = Speech_Analytics\\Speech_Analytics.Retroativo\\Speech_Analytics.Retroativo.csproj
+		SccProjectName4 = Speech_Analytics/Speech_Analytics.Retroativo
+		SccLocalPath4 = Speech_Analytics\\Speech_Analytics.Retroativo
+		SccProjectUniqueName5 = Speech_Analytics.Setup\\Speech_Analytics.Setup.vdproj
+		SccProjectName5 = Speech_Analytics.Setup
+		SccLocalPath5 = Speech_Analytics.Setup
+	EndGlobalSection
+EndGlobal
